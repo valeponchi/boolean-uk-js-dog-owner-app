@@ -107,6 +107,7 @@ img {
 }
 
 .main__dog-section img {
+  width: 100px;          /*ADDED BY ME */
   margin-bottom: 1rem;
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -116,6 +117,12 @@ img {
 .main__dog-section p {
   display: inline-block;
   margin: 1rem;
+}
+
+.main__dog-section .em { /*ADDED BY ME */
+  display: inline-block; /*ADDED BY ME */
+  margin: 1rem;          /*ADDED BY ME */
+  font-style: italic;    /*ADDED BY ME */
 }
 
 .main__dog-section__btn {
