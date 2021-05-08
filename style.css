@@ -17,7 +17,7 @@ body {
   font-family: sans-serif;
   color: var(--dark-text);
   background-color: var(--white);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 img {
@@ -107,7 +107,7 @@ img {
 }
 
 .main__dog-section img {
-  width: 100px;          /*ADDED BY ME */
+  /* width: 100px;          */
   margin-bottom: 1rem;
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -119,11 +119,11 @@ img {
   margin: 1rem;
 }
 
-.main__dog-section .em { /*ADDED BY ME */
-  display: inline-block; /*ADDED BY ME */
-  margin: 1rem;          /*ADDED BY ME */
-  font-style: italic;    /*ADDED BY ME */
-}
+/* .main__dog-section .em { 
+  display: inline-block; 
+  margin: 1rem;          
+  font-style: italic;    
+} */
 
 .main__dog-section__btn {
   display: grid;
